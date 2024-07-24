@@ -1,0 +1,99 @@
+
+body {
+    color: #393E46;
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+
+}
+
+ul, ol ,p {
+    line-height: 1.5;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+li {
+    padding-left: 5px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+/* ..........Recipe Container.......... */
+.recipe-container {
+    background-color: white;
+    border-radius: 40px;
+    margin: 50px auto;
+    padding: 40px;
+    width: 45%;
+}
+
+/*......... Omelettel Image......... */
+.omelette-img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+/* Preparation Section */
+.preparation-section {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 25px;
+    padding: 10px;
+}
+.preparation-section li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+/* Ingredients and Instructions list points*/
+.ingredients-section li::marker, .instructions-section li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.ingredients-section ul {
+    list-style-type: square;
+}
+
+/* Nutrition Section */
+.nutrition-section table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.nutrition-section tr {
+    border-bottom: 1px solid ;
+    border-color: #393E46;
+}
+.nutrition-section td {
+    font-family: "Outfit", sans-serif;
+    padding-left: 20px;
+}
+.nutrition-section .nutrition-value {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+/* The end */
+.attribution {
+    color: #393E46;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.attribution a {
+    color: #393E46;
+}
